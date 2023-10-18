@@ -1,0 +1,256 @@
+.wrapper-bandle {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.info-bandle {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.info-bandle p {
+  margin-top: 120px;
+  font-size: 70px;
+  color: white;
+}
+.info-bandle span {
+  padding-top: 5px;
+  font-size: 80px;
+  font-weight: bold;
+  color: white;
+}
+.wrapper-under-text {
+  display: flex;
+  gap: 20px;
+}
+.wrapper-bandle-icon {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.wrapper-bandle-icon h5 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+.wrapper-icon {
+  display: flex;
+  gap: 17px;
+}
+
+/* episodes */
+.wrapper-episodes {
+  padding: 15px;
+  padding-top: 90px;
+  margin-top: 50px;
+}
+.header-episodes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-episodes h2 {
+  font-size: 64px;
+  font-weight: 100;
+  letter-spacing: 8px;
+  color: white;
+}
+.header-episodes a {
+  font-size: 17px;
+  background-color: #118da8;
+  padding: 15px 20px;
+  border-radius: 6px;
+}
+
+.main-episodes {
+  margin: 50px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card {
+  background-color: black;
+  border-radius: 32px;
+  padding: 35px;
+  display: flex;
+
+  color: white;
+  gap: 53px;
+}
+.wrapper-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.wrapper-card-text h4 {
+  background-color: #191919;
+  border-radius: 6px;
+  width: 73px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: 100;
+}
+.wrapper-card-text h5 {
+  color: #118da8;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.wrapper-card-text h2 {
+  font-size: 64px;
+  font-weight: 100;
+  letter-spacing: 8px;
+  color: white;
+  margin-bottom: 20px;
+}
+.card3 h2 {
+  font-size: 57px;
+}
+.wrapper-card-text p {
+  font-size: 22px;
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.wrapper-card-text a {
+  font-size: 17px;
+  background-color: #118da8;
+  padding: 15px 20px;
+  border-radius: 6px;
+  width: 208px;
+}
+
+/* some info... */
+
+.wrapper-some-info {
+  padding-top: 70px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+.some-info-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.row {
+  font-size: 50px;
+  background-color: #118da8;
+  color: white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  font-family: none;
+}
+.wrapper-some-info span {
+  color: #118da8;
+  font-size: 18px;
+}
+.wrapper-some-info h2 {
+  color: white;
+  font-size: 65px;
+  font-weight: 100;
+  letter-spacing: 3px;
+}
+.wrapper-some-info p {
+  font-size: 22;
+  color: white;
+  opacity: 0.7;
+}
+/*subscrib */
+
+.sub-wrapper {
+  position: relative;
+  margin-top: 150px;
+  background-color: black;
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  padding-right: 60px;
+}
+.sub-text span {
+  color: #118da8;
+  font-size: 18px;
+  display: block;
+  text-align: left;
+}
+.sub-text h2 {
+  font-size: 72px;
+  color: white;
+  font-weight: 100;
+  text-align: left;
+}
+
+form input {
+  width: 522px;
+  height: 72px;
+  background-color: #191919;
+  outline: none;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 22px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+form {
+  width: 522px;
+}
+form input::placeholder {
+  font-size: 22px;
+  color: white;
+  opacity: 0.7;
+}
+form .btn {
+  width: 90px;
+  height: 50px;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  background-color: #118da8;
+  color: white;
+}
+.palochki {
+  position: absolute;
+  bottom: -10%;
+  left: -3%;
+  transform: translate(3%, 10%);
+}
+/*rate */
+
+.wrapper-rate {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 150px;
+}
+.rate-card {
+  background-color: black;
+  border-radius: 32px;
+  width: 423px;
+  height: 321px;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+.rate-text {
+  color: white;
+  font-size: 36px;
+  font-weight: 100;
+}
+.rate-name {
+  color: white;
+  font-size: 24px;
+  opacity: 0.7;
+  font-weight: 100;
+}
